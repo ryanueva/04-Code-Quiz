@@ -38,3 +38,13 @@
 // }
 // alert("you got " + socre + "/" + questions.length);\
 
+// var ids and locate elements
+var startBtn = document.querySelector('.start-button');
+var resetBtn = document.querySelector('.reset-button');
+var scoresBtn = document.querySelector('.scores-button');
+
+var timerTxt = document.querySelector('.timer-text');
+var lastScore = document.querySelector('.last-score');
+
+var cardContent = document.querySelector('.card-content');
+var cardBtm = document.querySelector('.card-bottom');
